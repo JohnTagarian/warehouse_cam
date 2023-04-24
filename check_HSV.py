@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from PIL import Image 
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
     raise IOError("Cannot open webcam")
